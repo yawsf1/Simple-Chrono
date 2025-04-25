@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../../../Pyth"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "mywebsite"
+	}
+}
