@@ -11,6 +11,8 @@ body{
     height: 100vh;
     width: 100%;
     background-color: rgb(120, 159, 160);
+    overflow-x: hidden;
+
 }
 main{
     height: 100%;
@@ -151,7 +153,7 @@ main{
     font-size: 3rem;
 }
 
-@media screen and (max-width: 1200px){
+@media (max-width: 1200px){
     .chrono h1 {
         font-size: 4rem;
     }
@@ -160,7 +162,7 @@ main{
     }
 }
 
-@media screen and (max-width: 900px){
+@media (max-width: 900px){
     .chrono h1 {
         font-size: 3rem;
     }
@@ -174,7 +176,7 @@ main{
     }
 
 }
-@media screen and (max-width: 740px){
+@media (max-width: 740px){
     .chrono h1 {
         font-size: 2.5rem;
     }
@@ -191,10 +193,37 @@ main{
     }
     .container{
         height: 30vh;
+        width: 60%;
     }
     #child2 .milis{
         position: absolute;
         bottom: 38%;
-        right: 30.5%;
+        right: 27%;
+    }    
+}
+
+@media (max-width: 515px){
+    .chrono h1 {
+        font-size: 1.8rem;
+    }
+    #child2 .milis{
+        font-size: 1.3rem;
+    }
+    #child1 div{
+        height: 25%;
+        margin: 0px 10px;
+        padding: 10px 10px;
+    }
+    #child1 div i{
+        font-size: 1rem;
+    }
+    .container{
+        height: 30vh;
+        width: 90%
+    }
+    #child2 .milis{
+        position: absolute;
+        bottom: 38%;
+        right: 15%;
     }    
 }

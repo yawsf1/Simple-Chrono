@@ -1,6 +1,6 @@
 # Chronomètre Simple ⏱️
 
-Un chronomètre numérique simple et responsive réalisé avec **HTML**, **CSS** et **JavaScript**.
+Un chronomètre numérique simple réalisé avec **HTML**, **CSS** et **JavaScript**.
 
 ### Fonctionnalités :
 - Boutons Démarrer, Arrêter et Réinitialiser
